@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd73f2e8-c32b-413d-bf77-9d46f61b281d" name="Changes" comment="Creating DataInput and Process Classes.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/ProcessTest.java" afterDir="false" />
+    <list default="true" id="fd73f2e8-c32b-413d-bf77-9d46f61b281d" name="Changes" comment="Test, encode and decode logic added">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/DataInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/CaesarCipherApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/ProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/ProcessTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="caesar-cipher" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +54,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2TsOFCDmUHbJR8DGCLa508aU4xh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,7 +68,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Simon/Desktop/moringa_school_projects/java/caesar-cipher"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,9 +80,9 @@
       <recent name="ke.co.safaricom" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ke.co.safaricom.Main" />
+  <component name="RunManager" selected="Gradle.ProcessTest.testEncoding">
+    <configuration name="CaesarCipherApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ke.co.safaricom.CaesarCipherApp" />
       <module name="caesar-cipher.main" />
       <extension name="coverage">
         <pattern>
@@ -192,8 +217,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ProcessTest.testEncoding" />
-        <item itemvalue="Gradle.ProcessTest" />
         <item itemvalue="Gradle.ProcessTest.testDecoding" />
+        <item itemvalue="Gradle.ProcessTest" />
         <item itemvalue="Gradle.ProcessTest.testInvalidProcess" />
         <item itemvalue="Gradle.ProcessTest.testUnknownProcess" />
       </list>
@@ -222,12 +247,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691835508250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test, encode and decode logic added">
+      <created>1691867452397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691867452397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Caesar Cipher project set up" />
     <MESSAGE value="Creating DataInput and Process Classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating DataInput and Process Classes." />
+    <MESSAGE value="Test, encode and decode logic added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test, encode and decode logic added" />
   </component>
 </project>

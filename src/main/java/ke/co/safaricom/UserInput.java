@@ -3,7 +3,7 @@ package ke.co.safaricom;
 public class UserInput {
     private int key;
     private String message;
-    private int process; // 1-encode, 2-decode, 3-exit
+    private int option; // 1-encode, 2-decode, 3-exit
 
     public UserInput() {
     }
@@ -24,12 +24,12 @@ public class UserInput {
         this.message = message;
     }
 
-    public int getProcess() {
-        return process;
+    public int getOption() {
+        return option;
     }
 
-    public void setProcess(int process) {
-        this.process = process;
+    public void setOption(int option) {
+        this.option = option;
     }
 
 
