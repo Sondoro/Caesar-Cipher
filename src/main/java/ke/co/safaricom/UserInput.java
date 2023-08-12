@@ -1,11 +1,11 @@
 package ke.co.safaricom;
 
-public class DataInput {
+public class UserInput {
     private int key;
     private String message;
     private int process; // 1-encode, 2-decode, 3-exit
 
-    public DataInput() {
+    public UserInput() {
     }
 
     public int getKey() {
